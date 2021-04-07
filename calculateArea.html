@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calculate Area</title>
+
+</head>
+<body>
+
+<script>
+
+	var myRadius = parseFloat(prompt("Enter your radius","0"));
+
+	function calculateArea() {
+
+		return Math.PI*(myRadius*myRadius);
+	}
+
+	function myArea() {
+
+		var area = calculateArea(myRadius);
+		alert("A circle with a " + myRadius + " centimeter radius has an area of " + area.toFixed(2) + " centimeters.")
+	}
+
+myArea();
+
+</script>
+</body>
+</html>
